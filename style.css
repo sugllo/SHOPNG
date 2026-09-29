@@ -1,0 +1,47 @@
+.main{
+    border: solid 2px red;
+    padding: 10px 10px;
+    display: flex;
+    gap: 10px;
+}
+.items{
+    border: solid green 3px;
+    font-weight: bolder;
+    justify-items: center;
+}
+#itemtext{
+    border: saddlebrown solid 2px;
+    height: 40px;
+}
+.qunty{
+    border: solid green 3px;
+    font-weight: bolder;
+     justify-items: center;
+}
+#quantytext{
+    border: saddlebrown solid 2px;
+    height: 40px;
+}
+.amount{
+    border: solid green 3px;
+    font-weight: bolder;
+     justify-items: center;
+}
+#Amounttext{
+    border: saddlebrown solid 2px;
+    height: 40px;
+}
+button{
+    color: black;
+    background-color: aqua;
+    height: 50px;
+    width: 70px;
+    align-self: center;
+    border-radius: 5px;
+}
+#itemlist{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
