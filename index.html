@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>SHOPPING LIST</title>
-        <link href="style.css" rel="stylesheet"  type="text/css" >
+        <link href="style.css"  rel="stylesheet"  type="text/css">
     </head>
     <body>
         <h1>SHOPPING ITEMS</h1>
@@ -18,9 +18,11 @@
                 <form>Amount</form>
                 <input type="number" placeholder="Type Amount Here" id="Amounttext">
             </div>
-            <button id="add-button" >Add</button>
-            <ul id="itemlist"></ul>
+            <button id="add-button" onclick="addFuction()" >Add</button>
             <script src="java.js" ></script>
+        </div>
+        <div  class="list" >
+            <ul id="itemlist"></ul>
         </div>
     </body>
 </html>
